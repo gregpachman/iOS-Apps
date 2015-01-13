@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		CEAD62061A5ECA9100855D82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD62051A5ECA9100855D82 /* main.m */; };
 		CEAD62091A5ECA9100855D82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD62081A5ECA9100855D82 /* AppDelegate.m */; };
-		CEAD620C1A5ECA9100855D82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD620B1A5ECA9100855D82 /* ViewController.m */; };
-		CEAD620F1A5ECA9100855D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAD620D1A5ECA9100855D82 /* Main.storyboard */; };
 		CEAD62111A5ECA9100855D82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAD62101A5ECA9100855D82 /* Images.xcassets */; };
 		CEAD62141A5ECA9100855D82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAD62121A5ECA9100855D82 /* LaunchScreen.xib */; };
 		CEAD62201A5ECA9100855D82 /* GitHubFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD621F1A5ECA9100855D82 /* GitHubFriendsTests.m */; };
+		CEAD622E1A5ECBA800855D82 /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD622D1A5ECBA800855D82 /* FriendCell.m */; };
+		CEAD62311A5ED29500855D82 /* FriendsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD62301A5ED29500855D82 /* FriendsTVC.m */; };
+		CEAD62341A5EE36500855D82 /* NewFriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD62331A5EE36500855D82 /* NewFriendVC.m */; };
+		CEAD62371A5EE38F00855D82 /* FriendDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAD62361A5EE38F00855D82 /* FriendDetailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,19 @@
 		CEAD62051A5ECA9100855D82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEAD62071A5ECA9100855D82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEAD62081A5ECA9100855D82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEAD620A1A5ECA9100855D82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEAD620B1A5ECA9100855D82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CEAD620E1A5ECA9100855D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEAD62101A5ECA9100855D82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEAD62131A5ECA9100855D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CEAD62191A5ECA9100855D82 /* GitHubFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD621E1A5ECA9100855D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEAD621F1A5ECA9100855D82 /* GitHubFriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubFriendsTests.m; sourceTree = "<group>"; };
+		CEAD622C1A5ECBA800855D82 /* FriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendCell.h; sourceTree = "<group>"; };
+		CEAD622D1A5ECBA800855D82 /* FriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendCell.m; sourceTree = "<group>"; };
+		CEAD622F1A5ED29500855D82 /* FriendsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTVC.h; sourceTree = "<group>"; };
+		CEAD62301A5ED29500855D82 /* FriendsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTVC.m; sourceTree = "<group>"; };
+		CEAD62321A5EE36500855D82 /* NewFriendVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFriendVC.h; sourceTree = "<group>"; };
+		CEAD62331A5EE36500855D82 /* NewFriendVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFriendVC.m; sourceTree = "<group>"; };
+		CEAD62351A5EE38F00855D82 /* FriendDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendDetailVC.h; sourceTree = "<group>"; };
+		CEAD62361A5EE38F00855D82 /* FriendDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendDetailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				CEAD62021A5ECA9100855D82 /* GitHubFriends */,
+				CEAD622F1A5ED29500855D82 /* FriendsTVC.h */,
+				CEAD62301A5ED29500855D82 /* FriendsTVC.m */,
+				CEAD622D1A5ECBA800855D82 /* FriendCell.m */,
+				CEAD622C1A5ECBA800855D82 /* FriendCell.h */,
+				CEAD62031A5ECA9100855D82 /* Supporting Files */,
 				CEAD621C1A5ECA9100855D82 /* GitHubFriendsTests */,
 				CEAD62011A5ECA9100855D82 /* Products */,
 			);
@@ -81,14 +93,7 @@
 		CEAD62021A5ECA9100855D82 /* GitHubFriends */ = {
 			isa = PBXGroup;
 			children = (
-				CEAD62071A5ECA9100855D82 /* AppDelegate.h */,
-				CEAD62081A5ECA9100855D82 /* AppDelegate.m */,
-				CEAD620A1A5ECA9100855D82 /* ViewController.h */,
-				CEAD620B1A5ECA9100855D82 /* ViewController.m */,
-				CEAD620D1A5ECA9100855D82 /* Main.storyboard */,
-				CEAD62101A5ECA9100855D82 /* Images.xcassets */,
-				CEAD62121A5ECA9100855D82 /* LaunchScreen.xib */,
-				CEAD62031A5ECA9100855D82 /* Supporting Files */,
+				CEAD62381A5EE3FA00855D82 /* List */,
 			);
 			path = GitHubFriends;
 			sourceTree = "<group>";
@@ -96,10 +101,15 @@
 		CEAD62031A5ECA9100855D82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEAD62071A5ECA9100855D82 /* AppDelegate.h */,
+				CEAD62081A5ECA9100855D82 /* AppDelegate.m */,
+				CEAD62101A5ECA9100855D82 /* Images.xcassets */,
+				CEAD62121A5ECA9100855D82 /* LaunchScreen.xib */,
 				CEAD62041A5ECA9100855D82 /* Info.plist */,
 				CEAD62051A5ECA9100855D82 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = GitHubFriends;
 			sourceTree = "<group>";
 		};
 		CEAD621C1A5ECA9100855D82 /* GitHubFriendsTests */ = {
@@ -117,6 +127,17 @@
 				CEAD621E1A5ECA9100855D82 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEAD62381A5EE3FA00855D82 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				CEAD62321A5EE36500855D82 /* NewFriendVC.h */,
+				CEAD62331A5EE36500855D82 /* NewFriendVC.m */,
+				CEAD62351A5EE38F00855D82 /* FriendDetailVC.h */,
+				CEAD62361A5EE38F00855D82 /* FriendDetailVC.m */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +220,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAD620F1A5ECA9100855D82 /* Main.storyboard in Resources */,
 				CEAD62141A5ECA9100855D82 /* LaunchScreen.xib in Resources */,
 				CEAD62111A5ECA9100855D82 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAD620C1A5ECA9100855D82 /* ViewController.m in Sources */,
 				CEAD62091A5ECA9100855D82 /* AppDelegate.m in Sources */,
+				CEAD62341A5EE36500855D82 /* NewFriendVC.m in Sources */,
 				CEAD62061A5ECA9100855D82 /* main.m in Sources */,
+				CEAD62371A5EE38F00855D82 /* FriendDetailVC.m in Sources */,
+				CEAD622E1A5ECBA800855D82 /* FriendCell.m in Sources */,
+				CEAD62311A5ED29500855D82 /* FriendsTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +267,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEAD620D1A5ECA9100855D82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEAD620E1A5ECA9100855D82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEAD62121A5ECA9100855D82 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
