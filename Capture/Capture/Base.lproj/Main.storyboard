@@ -111,39 +111,68 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="DE3-cP-feW"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="24q-h7-Hf4">
-                                    <size key="itemSize" width="80" height="80"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="24q-h7-Hf4">
+                                    <size key="itemSize" width="60" height="60"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="hub-It-ksP">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="filterCell" id="hub-It-ksP" customClass="FilterCell">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fnw-SM-67F">
+                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                </imageView>
+                                            </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <outlet property="imageView" destination="fnw-SM-67F" id="3er-4X-2vO"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ld2-C6-gcw" customClass="SickSlider">
+                                <rect key="frame" x="0.0" y="448" width="320" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="lX7-9G-E4W"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="startPosition">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="sliderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="reverseColor" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="gRW-RS-OYe" secondAttribute="trailing" id="4il-Ru-5Qh"/>
                             <constraint firstItem="6bt-d5-beP" firstAttribute="leading" secondItem="gRW-RS-OYe" secondAttribute="leading" id="9Ti-HW-uPd"/>
+                            <constraint firstItem="Ld2-C6-gcw" firstAttribute="leading" secondItem="2NU-NR-pum" secondAttribute="leadingMargin" constant="-16" id="ITt-jx-0ho"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ld2-C6-gcw" secondAttribute="trailing" constant="-16" id="Qci-ne-3gO"/>
                             <constraint firstItem="gRW-RS-OYe" firstAttribute="trailing" secondItem="6bt-d5-beP" secondAttribute="trailing" id="UzG-eR-JKI"/>
                             <constraint firstItem="6bt-d5-beP" firstAttribute="leading" secondItem="2NU-NR-pum" secondAttribute="leading" id="guf-fU-vwK"/>
                             <constraint firstItem="gRW-RS-OYe" firstAttribute="top" secondItem="gRD-sv-XUd" secondAttribute="bottom" constant="45" id="hNZ-Lj-g43"/>
                             <constraint firstItem="6bt-d5-beP" firstAttribute="bottom" secondItem="doX-uE-YZH" secondAttribute="top" id="yKJ-MK-YVW"/>
+                            <constraint firstItem="6bt-d5-beP" firstAttribute="top" secondItem="Ld2-C6-gcw" secondAttribute="bottom" id="ztZ-IU-3df"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
+                        <outlet property="filterCollectionView" destination="6bt-d5-beP" id="BPt-Bm-sMs"/>
                         <outlet property="filterImageView" destination="gRW-RS-OYe" id="AXk-bS-WoP"/>
+                        <outlet property="slider1" destination="Ld2-C6-gcw" id="Cxg-Xj-DA0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s3K-VU-sn7" userLabel="First Responder" sceneMemberID="firstResponder"/>

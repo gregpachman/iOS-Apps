@@ -11,5 +11,6 @@
 @interface FilterViewController : UIViewController
 
 @property (nonatomic) UIImage * originalImage;
+@property (nonatomic) NSArray * filters;
 
 @end

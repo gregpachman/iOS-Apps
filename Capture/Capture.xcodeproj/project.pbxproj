@@ -15,6 +15,8 @@
 		CE776CF91A6E987D003E824E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE776CF71A6E987D003E824E /* LaunchScreen.xib */; };
 		CE776D051A6E987D003E824E /* CaptureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE776D041A6E987D003E824E /* CaptureTests.m */; };
 		CE776D101A6EAD95003E824E /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE776D0F1A6EAD95003E824E /* FilterViewController.m */; };
+		CE87A9051A700F12004EB37A /* FilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87A9041A700F12004EB37A /* FilterCell.m */; };
+		CE87A9081A703835004EB37A /* SickSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87A9071A703835004EB37A /* SickSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		CE776D041A6E987D003E824E /* CaptureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureTests.m; sourceTree = "<group>"; };
 		CE776D0E1A6EAD95003E824E /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
 		CE776D0F1A6EAD95003E824E /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		CE87A9031A700F12004EB37A /* FilterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterCell.h; sourceTree = "<group>"; };
+		CE87A9041A700F12004EB37A /* FilterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterCell.m; sourceTree = "<group>"; };
+		CE87A9061A703835004EB37A /* SickSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SickSlider.h; sourceTree = "<group>"; };
+		CE87A9071A703835004EB37A /* SickSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SickSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				CE776CF51A6E987D003E824E /* Images.xcassets */,
 				CE776CF71A6E987D003E824E /* LaunchScreen.xib */,
 				CE776CE81A6E987D003E824E /* Supporting Files */,
+				CE87A9031A700F12004EB37A /* FilterCell.h */,
+				CE87A9041A700F12004EB37A /* FilterCell.m */,
+				CE87A9061A703835004EB37A /* SickSlider.h */,
+				CE87A9071A703835004EB37A /* SickSlider.m */,
 			);
 			path = Capture;
 			sourceTree = "<group>";
@@ -225,7 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE87A9081A703835004EB37A /* SickSlider.m in Sources */,
 				CE776CF11A6E987D003E824E /* ViewController.m in Sources */,
+				CE87A9051A700F12004EB37A /* FilterCell.m in Sources */,
 				CE776CEE1A6E987D003E824E /* AppDelegate.m in Sources */,
 				CE776D101A6EAD95003E824E /* FilterViewController.m in Sources */,
 				CE776CEB1A6E987D003E824E /* main.m in Sources */,

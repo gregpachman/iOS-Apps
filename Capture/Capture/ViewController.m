@@ -54,7 +54,7 @@
     
     [self.cameraView addSubview:self.cameraPickerController.view];
     
-    [self.takeMedia addTarget:self action:@selector(takePicture) forControlEvents:UIControlEventTouchUpInside];
+    [self.takeMedia addTarget:self.cameraPickerController action:@selector(takePicture) forControlEvents:UIControlEventTouchUpInside];
     
     [self.mediaChoiceButton addTarget:self action:@selector(changeMediaType) forControlEvents:UIControlEventValueChanged];
     
@@ -90,27 +90,27 @@
 
 - (void)changeCameraType {
         
-        self.cameraPickerController.cameraCaptureMode = (self.mediaChoiceButton.selectedSegmentIndex ==0) ? UIImagePickerControllerCameraDeviceFront : UIImagePickerControllerCameraDeviceRear;
+        self.cameraPickerController.cameraDevice = (self.cameraChoiceButton.selectedSegmentIndex == 0) ? UIImagePickerControllerCameraDeviceFront : UIImagePickerControllerCameraDeviceRear;
         
         
-        switch (self.cameraChoiceButton.selectedSegmentIndex) {
-            case 0://front camera
-                
-                
-                [self.cameraChoiceButton addTarget:self action:@selector(changeCameraType) forControlEvents:UIControlEventValueChanged];
-                
-                break;
-            case 1: //rear camera
-                
-                [self.cameraChoiceButton removeTarget:self action:@selector(changeCameraType) forControlEvents:UIControlEventValueChanged];
-                
-                
-                break;
-            default:
-                break;
-                
-        }
-    
+//        switch (self.cameraChoiceButton.selectedSegmentIndex) {
+//            case 0://front camera
+//                
+//                
+//                [self.cameraChoiceButton addTarget:self action:@selector(changeCameraType) forControlEvents:UIControlEventValueChanged];
+//                
+//                break;
+//            case 1: //rear camera
+//                
+//                [self.cameraChoiceButton removeTarget:self action:@selector(changeCameraType) forControlEvents:UIControlEventValueChanged];
+//                
+//                
+//                break;
+//            default:
+//                break;
+//                
+//        }
+//    
 
 
 }
