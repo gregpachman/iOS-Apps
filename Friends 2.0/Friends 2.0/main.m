@@ -1,0 +1,16 @@
+//
+//  main.m
+//  Friends 2.0
+//
+//  Created by User on 1/24/15.
+//  Copyright (c) 2015 Greg Pachman. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+
+int main(int argc, char * argv[]) {
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+    }
+}

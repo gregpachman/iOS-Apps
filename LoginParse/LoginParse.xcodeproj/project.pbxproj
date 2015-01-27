@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA281C01A77D90800B78E72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA281BF1A77D90800B78E72 /* AppDelegate.swift */; };
+		CEA281C21A77D90800B78E72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA281C11A77D90800B78E72 /* ViewController.swift */; };
+		CEA281C51A77D90800B78E72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA281C31A77D90800B78E72 /* Main.storyboard */; };
+		CEA281C71A77D90800B78E72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA281C61A77D90800B78E72 /* Images.xcassets */; };
+		CEA281CA1A77D90800B78E72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA281C81A77D90800B78E72 /* LaunchScreen.xib */; };
+		CEA281D61A77D90800B78E72 /* LoginParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA281D51A77D90800B78E72 /* LoginParseTests.swift */; };
+		CEA281E51A77DB1400B78E72 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281E01A77DB1400B78E72 /* Bolts.framework */; };
+		CEA281E61A77DB1400B78E72 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281E11A77DB1400B78E72 /* Parse.framework */; };
+		CEA281E71A77DB1400B78E72 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281E21A77DB1400B78E72 /* ParseCrashReporting.framework */; };
+		CEA281E81A77DB1400B78E72 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281E31A77DB1400B78E72 /* ParseFacebookUtils.framework */; };
+		CEA281E91A77DB1400B78E72 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281E41A77DB1400B78E72 /* ParseUI.framework */; };
+		CEA281EB1A77DB5600B78E72 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281EA1A77DB5600B78E72 /* AudioToolbox.framework */; };
+		CEA281ED1A77DB5E00B78E72 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281EC1A77DB5E00B78E72 /* CFNetwork.framework */; };
+		CEA281EF1A77DB7100B78E72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281EE1A77DB7100B78E72 /* CoreGraphics.framework */; };
+		CEA281F11A77DB7A00B78E72 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281F01A77DB7A00B78E72 /* CoreLocation.framework */; };
+		CEA281F31A77DB8B00B78E72 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281F21A77DB8B00B78E72 /* MobileCoreServices.framework */; };
+		CEA281F51A77DB9200B78E72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281F41A77DB9200B78E72 /* QuartzCore.framework */; };
+		CEA281F71A77DBA000B78E72 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281F61A77DBA000B78E72 /* Security.framework */; };
+		CEA281F91A77DBA800B78E72 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281F81A77DBA800B78E72 /* StoreKit.framework */; };
+		CEA281FB1A77DBC400B78E72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281FA1A77DBC400B78E72 /* SystemConfiguration.framework */; };
+		CEA281FD1A77DBD700B78E72 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281FC1A77DBD700B78E72 /* libz.dylib */; };
+		CEA281FF1A77DBE800B78E72 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA281FE1A77DBE800B78E72 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA281D01A77D90800B78E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA281B21A77D90800B78E72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA281B91A77D90800B78E72;
+			remoteInfo = LoginParse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA281BA1A77D90800B78E72 /* LoginParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA281BE1A77D90800B78E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA281BF1A77D90800B78E72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA281C11A77D90800B78E72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA281C41A77D90800B78E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA281C61A77D90800B78E72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEA281C91A77D90800B78E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEA281CF1A77D90800B78E72 /* LoginParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginParseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA281D41A77D90800B78E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA281D51A77D90800B78E72 /* LoginParseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginParseTests.swift; sourceTree = "<group>"; };
+		CEA281E01A77DB1400B78E72 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CEA281E11A77DB1400B78E72 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CEA281E21A77DB1400B78E72 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		CEA281E31A77DB1400B78E72 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		CEA281E41A77DB1400B78E72 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		CEA281EA1A77DB5600B78E72 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEA281EC1A77DB5E00B78E72 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CEA281EE1A77DB7100B78E72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEA281F01A77DB7A00B78E72 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEA281F21A77DB8B00B78E72 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CEA281F41A77DB9200B78E72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEA281F61A77DBA000B78E72 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CEA281F81A77DBA800B78E72 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CEA281FA1A77DBC400B78E72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CEA281FC1A77DBD700B78E72 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CEA281FE1A77DBE800B78E72 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CEA282001A77DC8200B78E72 /* LoginParse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginParse-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA281B71A77D90800B78E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA281FF1A77DBE800B78E72 /* libsqlite3.dylib in Frameworks */,
+				CEA281FD1A77DBD700B78E72 /* libz.dylib in Frameworks */,
+				CEA281FB1A77DBC400B78E72 /* SystemConfiguration.framework in Frameworks */,
+				CEA281F91A77DBA800B78E72 /* StoreKit.framework in Frameworks */,
+				CEA281F71A77DBA000B78E72 /* Security.framework in Frameworks */,
+				CEA281F51A77DB9200B78E72 /* QuartzCore.framework in Frameworks */,
+				CEA281F31A77DB8B00B78E72 /* MobileCoreServices.framework in Frameworks */,
+				CEA281F11A77DB7A00B78E72 /* CoreLocation.framework in Frameworks */,
+				CEA281EF1A77DB7100B78E72 /* CoreGraphics.framework in Frameworks */,
+				CEA281ED1A77DB5E00B78E72 /* CFNetwork.framework in Frameworks */,
+				CEA281EB1A77DB5600B78E72 /* AudioToolbox.framework in Frameworks */,
+				CEA281E61A77DB1400B78E72 /* Parse.framework in Frameworks */,
+				CEA281E71A77DB1400B78E72 /* ParseCrashReporting.framework in Frameworks */,
+				CEA281E91A77DB1400B78E72 /* ParseUI.framework in Frameworks */,
+				CEA281E81A77DB1400B78E72 /* ParseFacebookUtils.framework in Frameworks */,
+				CEA281E51A77DB1400B78E72 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA281CC1A77D90800B78E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA281B11A77D90800B78E72 = {
+			isa = PBXGroup;
+			children = (
+				CEA281BC1A77D90800B78E72 /* LoginParse */,
+				CEA281D21A77D90800B78E72 /* LoginParseTests */,
+				CEA281BB1A77D90800B78E72 /* Products */,
+				CEA281DF1A77DAF300B78E72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA281BB1A77D90800B78E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA281BA1A77D90800B78E72 /* LoginParse.app */,
+				CEA281CF1A77D90800B78E72 /* LoginParseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA281BC1A77D90800B78E72 /* LoginParse */ = {
+			isa = PBXGroup;
+			children = (
+				CEA281BF1A77D90800B78E72 /* AppDelegate.swift */,
+				CEA281C11A77D90800B78E72 /* ViewController.swift */,
+				CEA281C31A77D90800B78E72 /* Main.storyboard */,
+				CEA281C61A77D90800B78E72 /* Images.xcassets */,
+				CEA281C81A77D90800B78E72 /* LaunchScreen.xib */,
+				CEA281BD1A77D90800B78E72 /* Supporting Files */,
+				CEA282001A77DC8200B78E72 /* LoginParse-Bridging-Header.h */,
+			);
+			path = LoginParse;
+			sourceTree = "<group>";
+		};
+		CEA281BD1A77D90800B78E72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA281BE1A77D90800B78E72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA281D21A77D90800B78E72 /* LoginParseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA281D51A77D90800B78E72 /* LoginParseTests.swift */,
+				CEA281D31A77D90800B78E72 /* Supporting Files */,
+			);
+			path = LoginParseTests;
+			sourceTree = "<group>";
+		};
+		CEA281D31A77D90800B78E72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA281D41A77D90800B78E72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA281DF1A77DAF300B78E72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA281FE1A77DBE800B78E72 /* libsqlite3.dylib */,
+				CEA281FC1A77DBD700B78E72 /* libz.dylib */,
+				CEA281FA1A77DBC400B78E72 /* SystemConfiguration.framework */,
+				CEA281F81A77DBA800B78E72 /* StoreKit.framework */,
+				CEA281F61A77DBA000B78E72 /* Security.framework */,
+				CEA281F41A77DB9200B78E72 /* QuartzCore.framework */,
+				CEA281F21A77DB8B00B78E72 /* MobileCoreServices.framework */,
+				CEA281F01A77DB7A00B78E72 /* CoreLocation.framework */,
+				CEA281EE1A77DB7100B78E72 /* CoreGraphics.framework */,
+				CEA281EC1A77DB5E00B78E72 /* CFNetwork.framework */,
+				CEA281EA1A77DB5600B78E72 /* AudioToolbox.framework */,
+				CEA281E01A77DB1400B78E72 /* Bolts.framework */,
+				CEA281E11A77DB1400B78E72 /* Parse.framework */,
+				CEA281E21A77DB1400B78E72 /* ParseCrashReporting.framework */,
+				CEA281E31A77DB1400B78E72 /* ParseFacebookUtils.framework */,
+				CEA281E41A77DB1400B78E72 /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA281B91A77D90800B78E72 /* LoginParse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA281D91A77D90800B78E72 /* Build configuration list for PBXNativeTarget "LoginParse" */;
+			buildPhases = (
+				CEA281B61A77D90800B78E72 /* Sources */,
+				CEA281B71A77D90800B78E72 /* Frameworks */,
+				CEA281B81A77D90800B78E72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginParse;
+			productName = LoginParse;
+			productReference = CEA281BA1A77D90800B78E72 /* LoginParse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA281CE1A77D90800B78E72 /* LoginParseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA281DC1A77D90800B78E72 /* Build configuration list for PBXNativeTarget "LoginParseTests" */;
+			buildPhases = (
+				CEA281CB1A77D90800B78E72 /* Sources */,
+				CEA281CC1A77D90800B78E72 /* Frameworks */,
+				CEA281CD1A77D90800B78E72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA281D11A77D90800B78E72 /* PBXTargetDependency */,
+			);
+			name = LoginParseTests;
+			productName = LoginParseTests;
+			productReference = CEA281CF1A77D90800B78E72 /* LoginParseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA281B21A77D90800B78E72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Greg Pachman";
+				TargetAttributes = {
+					CEA281B91A77D90800B78E72 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CEA281CE1A77D90800B78E72 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CEA281B91A77D90800B78E72;
+					};
+				};
+			};
+			buildConfigurationList = CEA281B51A77D90800B78E72 /* Build configuration list for PBXProject "LoginParse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA281B11A77D90800B78E72;
+			productRefGroup = CEA281BB1A77D90800B78E72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA281B91A77D90800B78E72 /* LoginParse */,
+				CEA281CE1A77D90800B78E72 /* LoginParseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA281B81A77D90800B78E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA281C51A77D90800B78E72 /* Main.storyboard in Resources */,
+				CEA281CA1A77D90800B78E72 /* LaunchScreen.xib in Resources */,
+				CEA281C71A77D90800B78E72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA281CD1A77D90800B78E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA281B61A77D90800B78E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA281C21A77D90800B78E72 /* ViewController.swift in Sources */,
+				CEA281C01A77D90800B78E72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA281CB1A77D90800B78E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA281D61A77D90800B78E72 /* LoginParseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA281D11A77D90800B78E72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA281B91A77D90800B78E72 /* LoginParse */;
+			targetProxy = CEA281D01A77D90800B78E72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA281C31A77D90800B78E72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA281C41A77D90800B78E72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA281C81A77D90800B78E72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA281C91A77D90800B78E72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA281D71A77D90800B78E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA281D81A77D90800B78E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA281DA1A77D90800B78E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LoginParse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginParse/LoginParse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA281DB1A77D90800B78E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LoginParse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginParse/LoginParse-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CEA281DD1A77D90800B78E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoginParseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginParse.app/LoginParse";
+			};
+			name = Debug;
+		};
+		CEA281DE1A77D90800B78E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LoginParseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginParse.app/LoginParse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA281B51A77D90800B78E72 /* Build configuration list for PBXProject "LoginParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA281D71A77D90800B78E72 /* Debug */,
+				CEA281D81A77D90800B78E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA281D91A77D90800B78E72 /* Build configuration list for PBXNativeTarget "LoginParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA281DA1A77D90800B78E72 /* Debug */,
+				CEA281DB1A77D90800B78E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA281DC1A77D90800B78E72 /* Build configuration list for PBXNativeTarget "LoginParseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA281DD1A77D90800B78E72 /* Debug */,
+				CEA281DE1A77D90800B78E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA281B21A77D90800B78E72 /* Project object */;
+}

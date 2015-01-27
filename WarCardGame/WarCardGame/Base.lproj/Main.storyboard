@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="WarCardGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ra2-Eq-fRY" userLabel="BackgroundImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.11851518580000001" green="0.60296322599999996" blue="0.13442584390000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbA-hB-vGo">
+                                <rect key="frame" x="150" y="212" width="301" height="175"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eRf-0H-vi2" userLabel="Left Card">
+                                        <rect key="frame" x="8" y="8" width="121" height="150"/>
+                                        <color key="backgroundColor" red="0.089280039450000001" green="0.84303977269999997" blue="0.71989585460000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cqo-3b-IoF" userLabel="Right Card">
+                                        <rect key="frame" x="173" y="8" width="120" height="150"/>
+                                        <color key="backgroundColor" red="0.089280039450000001" green="0.84303977269999997" blue="0.71989585460000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="i1U-Dx-1ff"/>
+                                    <constraint firstAttribute="width" constant="301" id="ioy-2c-4dd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wYg-FM-GJj" userLabel="FightButtonView">
+                                <rect key="frame" x="0.0" y="395" width="600" height="205"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPv-nc-GV7">
+                                <rect key="frame" x="257" y="417" width="86" height="60"/>
+                                <color key="backgroundColor" red="0.84303977269999997" green="0.21443233389999999" blue="0.3146337266" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="Uv9-Ha-8fB"/>
+                                    <constraint firstAttribute="width" constant="122" id="Xm6-DV-NOw"/>
+                                    <constraint firstAttribute="height" constant="60" id="hdW-Ov-hzg"/>
+                                </constraints>
+                                <state key="normal" title="Fight!!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Xm6-DV-NOw"/>
+                                        <exclude reference="hdW-Ov-hzg"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wYg-FM-GJj" firstAttribute="top" secondItem="TbA-hB-vGo" secondAttribute="bottom" id="C6j-Ur-NnB"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wYg-FM-GJj" secondAttribute="bottom" id="Hn4-nA-sTQ"/>
+                            <constraint firstAttribute="centerY" secondItem="FPv-nc-GV7" secondAttribute="centerY" constant="-191.5" id="VRn-VP-CmO"/>
+                            <constraint firstItem="FPv-nc-GV7" firstAttribute="centerX" secondItem="TbA-hB-vGo" secondAttribute="centerX" id="Vkc-uN-BIQ"/>
+                            <constraint firstAttribute="centerY" secondItem="FPv-nc-GV7" secondAttribute="centerY" constant="-191.5" id="aIQ-d9-wBn"/>
+                            <constraint firstItem="ra2-Eq-fRY" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="bjA-rV-t6N"/>
+                            <constraint firstItem="wYg-FM-GJj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="c3w-u3-1NK"/>
+                            <constraint firstItem="ra2-Eq-fRY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="d0n-7S-0TU"/>
+                            <constraint firstAttribute="trailing" secondItem="wYg-FM-GJj" secondAttribute="trailing" id="k60-gj-dHG"/>
+                            <constraint firstAttribute="trailing" secondItem="ra2-Eq-fRY" secondAttribute="trailing" id="m9U-3x-fe6"/>
+                            <constraint firstItem="FPv-nc-GV7" firstAttribute="top" secondItem="TbA-hB-vGo" secondAttribute="bottom" constant="30" id="q1j-8d-fJa"/>
+                            <constraint firstAttribute="centerX" secondItem="TbA-hB-vGo" secondAttribute="centerX" id="w2w-Y9-AC2"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="FPv-nc-GV7" secondAttribute="bottom" constant="123" id="wH7-2i-Ro7"/>
+                            <constraint firstAttribute="centerX" secondItem="FPv-nc-GV7" secondAttribute="centerX" id="x1G-mh-jH0"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ra2-Eq-fRY" secondAttribute="bottom" id="xXr-su-y0V"/>
+                            <constraint firstAttribute="centerY" secondItem="TbA-hB-vGo" secondAttribute="centerY" id="y9e-UB-l8U"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VRn-VP-CmO"/>
+                                <exclude reference="aIQ-d9-wBn"/>
+                                <exclude reference="x1G-mh-jH0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="ra2-Eq-fRY" id="mNz-ua-lNK"/>
+                        <outlet property="fightButton" destination="FPv-nc-GV7" id="b7d-es-6JG"/>
+                        <outlet property="leftCardView" destination="eRf-0H-vi2" id="uUP-lI-FaP"/>
+                        <outlet property="rightCardView" destination="Cqo-3b-IoF" id="IYZ-rm-FJQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="590" y="315"/>
+        </scene>
+    </scenes>
+</document>
