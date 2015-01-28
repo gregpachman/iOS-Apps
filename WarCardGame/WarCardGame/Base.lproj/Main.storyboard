@@ -16,18 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ra2-Eq-fRY" userLabel="BackgroundImageView">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ra2-Eq-fRY" userLabel="BackgroundImageView">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="0.11851518580000001" green="0.60296322599999996" blue="0.13442584390000001" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbA-hB-vGo">
                                 <rect key="frame" x="150" y="212" width="301" height="175"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eRf-0H-vi2" userLabel="Left Card">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FACE" translatesAutoresizingMaskIntoConstraints="NO" id="eRf-0H-vi2" userLabel="Left Card">
                                         <rect key="frame" x="8" y="8" width="121" height="150"/>
                                         <color key="backgroundColor" red="0.089280039450000001" green="0.84303977269999997" blue="0.71989585460000005" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cqo-3b-IoF" userLabel="Right Card">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FACE" translatesAutoresizingMaskIntoConstraints="NO" id="Cqo-3b-IoF" userLabel="Right Card">
                                         <rect key="frame" x="173" y="8" width="120" height="150"/>
                                         <color key="backgroundColor" red="0.089280039450000001" green="0.84303977269999997" blue="0.71989585460000005" alpha="1" colorSpace="calibratedRGB"/>
                                     </imageView>
@@ -59,6 +59,9 @@
                                         <exclude reference="hdW-Ov-hzg"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="fightButtonTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WoS-xS-h6T"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -100,4 +103,8 @@
             <point key="canvasLocation" x="590" y="315"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FACE" width="51" height="73"/>
+        <image name="background" width="91" height="61"/>
+    </resources>
 </document>

@@ -30,5 +30,21 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func fightButtonTap(sender: AnyObject) {
+        
+        var leftRandomCard = arc4random_uniform(13) + 2
+        var leftCardResult: String = String(format: "%i", leftRandomCard)
+        
+        
+        var rightRandomCard = arc4random_uniform(13) + 2
+        var rightCardResult: String = String(format: "%i", rightRandomCard)
+        
+        self.leftCardView.image = UIImage(named: leftCardResult)
+        self.rightCardView.image = UIImage(named: rightCardResult)
+        
+        
+    }
+    
+    
 }
 
