@@ -46,7 +46,7 @@ if let name = optionalName {
     greeting = "Hello, \(name)"
 }
 
-let vegetable = "red pepper"
+let vegetable = "tomato"
 
 switch vegetable {
 case "celery":
@@ -65,7 +65,6 @@ var interestingNumbers = [
     "Fibonacci": [1,1,2,3,5],
     "Square":[1,4,9,16,25]
 ]
-var largestKind = "type"
 var largest = 0
 for (kind, numbers) in interestingNumbers {
     for number in numbers{
@@ -79,7 +78,10 @@ for (kind, numbers) in interestingNumbers {
 largest
 
 
+var string1 = "cat"
+var string2 = " and dog"
 
+string1 + string2
 
 
 
